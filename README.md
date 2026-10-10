@@ -141,4 +141,4 @@ Resposta de `POST /shipments/BR123456789/sync` com o payload acima, consultado e
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O formato do agregador fictício e as decisões acima foram propostos pela IA.
 
-O que eu revisei: <preencher antes de enviar, só com o que foi de fato conferido>.
+O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
