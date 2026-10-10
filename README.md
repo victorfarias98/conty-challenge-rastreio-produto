@@ -141,4 +141,6 @@ Resposta de `POST /shipments/BR123456789/sync` com o payload acima, consultado e
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O formato do agregador fictício e as decisões acima foram propostos pela IA.
 
+Verificação automática, rodada pela IA e não por mim: `npm test` passa com 23 testes em 2 arquivos e `npx tsc --noEmit` não acusa erro. Entre os testes estão "cadastra o código no agregador uma vez só" e "status inventado pela transportadora fica no histórico e não vira entregue".
+
 O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
